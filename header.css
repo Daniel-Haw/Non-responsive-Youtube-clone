@@ -1,0 +1,106 @@
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:white;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(222, 222, 222);
+    z-index:100;
+}
+.header-left{
+    display:flex;
+    align-items:center;
+    width:200px;
+    margin-right:40px;
+}
+.menu{
+    width:24px;
+    margin-left:24px;
+    margin-right:24px;
+}
+.brand{
+    width:90px;
+    height:20px;
+}
+.header-center{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    flex:1;
+    max-width:400px;
+}
+.search-bar{
+    font-size:16px;
+    height:35px;
+    padding-left:12px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#cccccc;
+    border-top-left-radius:2px;
+    border-bottom-left-radius:2px;
+    font-family:roboto;
+    flex:1;
+    width:0;
+}
+.search-bar:hover{
+    border-style:solid;
+    border-width:1px;
+    border-color:blue;
+}
+.search-tool{
+    height:35px;
+    width:64px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.search-tool-icon{
+    width:24px;
+}
+.microphone{
+    cursor: pointer;
+    width: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+}
+.microphone-icon{
+    width:24px;
+}
+.header-right{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-shrink:0;
+}
+.create,.youtube-apps,.notifications{
+    cursor: pointer;
+    width: 32x;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-left:20px;
+}
+.create-icon,.youtube-apps-icon,.notifications-icon{
+    width:24px;
+}
+.user-profile{
+    cursor:pointer;
+    border-radius:50px;
+    border:none;
+    background-color:white;
+}
+.user-profile-icon{
+    width:32px;
+    margin-left:20px;
+}
